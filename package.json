@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newmanix/templating-with-ejs-wn22-10.git"
+    "url": "git+https://github.com/erm9/templating-with-ejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/newmanix/templating-with-ejs-wn22-10/issues"
+    "url": "https://github.com/erm9/templating-with-ejs/issues"
   },
-  "homepage": "https://github.com/newmanix/templating-with-ejs-wn22-10#readme",
+  "homepage": "https://github.com/erm9/templating-with-ejs#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3"
