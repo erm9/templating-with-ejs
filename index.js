@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 app.get('/Marcus', (req, res) => {
   var title = 'Marcus Aurelius';
-  res.render('Marcus',{'title':title});
+  res.render('pages/Marcus',{'title':title});
 });
 
 app.get('/Diogenes', (req, res) => {
