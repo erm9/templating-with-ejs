@@ -13,9 +13,24 @@ app.get('/', (req, res) => {
   res.render('pages/index',{'title':title});
 });
 
-app.get('/about-us', (req, res) => {
-  var title = 'My About Us Page';
-  res.render('pages/about-us',{'title':title});
+app.get('/Marcus', (req, res) => {
+  var title = 'Marcus Aurelius';
+  res.render('Marcus',{'title':title});
+});
+
+app.get('/Diogenes', (req, res) => {
+  var title = 'Diogenes';
+  res.render('pages/Diogenes',{'title':title});
+});
+
+app.get('/schopenhauer', (req, res) => {
+  var title = 'arthur schopenhauer';
+  res.render('pages/schopenhauer',{'title':title});
+});
+
+app.get('/Nietzsche', (req, res) => {
+  var title = 'Friedrich Nietzsche';
+  res.render('pages/Nietzsche',{'title':title});
 });
 
 app.listen(port, () => {
