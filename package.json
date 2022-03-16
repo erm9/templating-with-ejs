@@ -1,5 +1,5 @@
 {
-  "name": "templating-with-ejs-wn22-1",
+  "name": "templating-with-ejs",
   "version": "1.0.0",
   "description": "Import this repo to create a starting point for Node.js projects in repl.it, https://replit.com",
   "main": "index.js",
